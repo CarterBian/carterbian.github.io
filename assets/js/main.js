@@ -79,8 +79,8 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Karl Huang.", "a Student at UCLA.", "a Developer at the Daily Bruin.",
-       "a Foodie exploring Los Angeles."],
+      strings: ["Cupertino Cooking.", "a place to learn essential skills.", "an open community.",
+       "a safe, friendly, and fun club."],
       typeSpeed: 100,
       loop: true,
     });
