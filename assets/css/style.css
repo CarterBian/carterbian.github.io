@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  color: #FFF;
+  color: #2360A7FF;
   font-size: 35px;
   font-weight: 370;
 }
@@ -34,7 +34,7 @@ h2 {
 h3{
   font-size: 23px;
   font-weight: 370;
-  color: #FFF;
+  color: #2360A7FF;
 }
 
 h4 {
@@ -241,7 +241,9 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../images/home-bg.jpg") repeat scroll center center / cover;
+  /*background: url("../images/home-bg.jpg") repeat scroll center center / cover;
+  */
+  background-color: black;
   height: 100vh;
   width: 100%;
 }
@@ -262,7 +264,7 @@ nav ul li a {
   margin-top: -150px;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: white;
+  color: #2360A7FF;
 }
 
 @media screen and (max-width: 767px) {
@@ -277,7 +279,7 @@ nav ul li a {
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
-  color: #fff;
+  colo: #2360A7FF;
   font-weight: 500;
 }
 
@@ -287,7 +289,7 @@ nav ul li a {
 }
 
 .header-content .list-social li i {
-  color: #fff;
+  color: #2360A7FF;
   font-size: 25px;
 }
 
