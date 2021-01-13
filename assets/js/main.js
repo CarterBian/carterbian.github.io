@@ -14,4 +14,15 @@ $(document).ready(function() {
       loop: true,
     });
   });
+
+  var typed2 = $(".typed2");
+  $(function() {
+    typed2.typed({
+      strings: ["Carter Bian ..."],
+      typeSpeed: 100,
+      loop: true,
+      showCursor: true,
+      backDelay: 10000
+    });
+  });
 });
