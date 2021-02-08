@@ -26,3 +26,23 @@ $(document).ready(function() {
     });
   });
 });
+
+let loadingScreen = document.querySelector(".loading-screen");
+let heroText = document.getElementById("hero-text");
+window.onload = transitionToMainScreen;
+
+//waits additional 500 milliseconds after loading
+function transitionToMainScreen() {
+    setTimeout(animateClosingScreen, 500);
+}
+
+function animateClosingScreen() {
+  loadingScreen.classList.add("hide");
+}
+
+loadingScreen.addEventListener("animationend", switchToMainScreen);
+
+function switchToMainScreen() {
+  loadingScreen.style.display = "none";
+  
+}
